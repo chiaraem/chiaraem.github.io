@@ -1,0 +1,79 @@
+body {
+    background-color: rgba(176,152,67,0.6);
+    font-family: Georgia, serif;
+    text-align:center;
+    color:#3e3925;
+}
+
+div {
+    background:#f7e6a1; 
+    width:80%; 
+    margin:20px auto; 
+    padding:20px;
+}
+
+h1 {
+    font-size:36px; 
+}
+
+
+h2 {
+    margin-top:35px;
+}
+
+table {
+    margin:auto; 
+    background:#fff3c4; 
+    border:2px solid#8b7730;
+    font-weight:bold;
+    border-collapse:collapse; 
+}
+
+td,th {
+    padding:5px; 
+    border-bottom:1px solid #b59f4a;
+}
+
+ol {
+    text-align:left; 
+    width:80%; 
+    margin:auto; 
+    padding:20px; 
+    padding-left:30px; 
+    background:rgba(255,245,210,0.7); 
+    border-left:6px solid #8b7730; 
+    border-radius:10px; 
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+figcaption {
+    font-size:11px; 
+    opacity:0.5; 
+    font-style:italic;
+}
+
+a{
+    display:inline-block; 
+    margin-top:15px; 
+    padding:8px 15px; 
+    background:#e6c85c; 
+    border:1px solid #8b7730;
+}
+
+
+img[src*="piadina.jpg"] {
+  display: block;
+  margin: 10px auto;
+  width: 400px;
+  height: auto;
+  box-shadow: 0 0 18px rgba(0,0,0,0.4);
+}
+
+
+img[src*="blog.giallozafferano.it"] {
+  display: block;
+  margin: 10px auto;
+  width: 250px;
+  height: auto;
+  box-shadow: 0 0 18px rgba(0,0,0,0.4);
+} 
